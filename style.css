@@ -1,0 +1,98 @@
+*{
+    width: auto;
+    background-color: black;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* background-image: url(./img/background.jpg);
+    background-size: contain; */
+}
+input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid gray;
+}
+.body{
+    display: flex;
+    font-size: 12px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-size: 25px;
+    
+}
+
+.logofont{
+    word-spacing: 15px;
+}
+
+.body1{
+    width: 35%;
+    margin: 60px;
+    align-items: center;
+    
+}
+
+.body2{
+    width: 65%;
+    text-align: center;
+    align-items: center;
+    padding-top: 200px;
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-color: transparent;
+}
+label{
+    text-align: left;
+    
+}
+
+.loginform, footer{
+    padding-left: 0px;
+    text-align: center;
+    align-items: center;
+}
+.login{
+border: 1px solid gray;
+width: 405px;
+height: 35px;
+background-color: orangered;
+padding-left: 0px;
+}
+
+footer{
+    margin-top: 50px;
+}
+.createaccount{
+    border: 1px solid gray;
+    width: 300px;
+    height: 35px;
+}
+
+#link{
+    text-decoration: none;
+}
+.freetrial{
+    border: 1px solid gray;
+    width: 250px;
+    height: 30px;
+    background-color: transparent;
+}
+
+hr{
+    width: 30%;
+}
+.OR{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+.future{
+    background-color: transparent;
+    font-size: 30px;
+}
